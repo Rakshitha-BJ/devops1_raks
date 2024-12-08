@@ -1,0 +1,32 @@
+exp-1
+git init
+ git config --global user.name "rakshitha-b-j"
+ git config --global user.email "rakshithabj221@gmail.com
+ git add .
+ git status
+git commit -m "save"
+git log
+ git config --list
+git remote add origin <url>
+git push origin main --force
+git clone https://github.com/Rakshitha-BJ/Devops2.git
+
+
+git  merge f1
+git diff main f1
+
+docker build -t <image name>
+docker run -name <containername> <image name>
+FROM openjdk
+WORKDIR /app
+COPY . /app
+RUN javac sample.java
+CMD ["java","sample"]
+
+docker login rakshitha1
+Vvce@1234
+docker images
+docker tag <imageid> <dockerusername>/<image name>
+docker push docker.io/<dockerusername>/<image name>
+
+
