@@ -28,5 +28,6 @@ Vvce@1234
 docker images
 docker tag <imageid> <dockerusername>/<image name>
 docker push docker.io/<dockerusername>/<image name>
-
+https://jpst.it/40R7D
+40PjU
 
